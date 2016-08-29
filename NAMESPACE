@@ -1,0 +1,6 @@
+export(
+    "getAlgorithmiaClient",
+    "ReadAcl.PUBLIC", "ReadAcl.PRIVATE", "ReadAcl.MY_ALGORITHMS",
+    "AlgorithmiaAlgorithm", "AlgorithmiaClient", "AlgorithmiaDataFile",
+    "AlgorithmiaDataDirectory", "AlgorithmiaDirectoryIterator")
+importFrom("methods", "new")
