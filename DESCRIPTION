@@ -1,8 +1,8 @@
 Package: algorithmia
 Type: Package
 Title: Allows you to Easily Interact with the Algorithmia Platform
-Version: 0.0.1
-Date: 2016-08-07
+Version: 0.0.2
+Date: 2016-09-12
 Author: James Athappilly
 Maintainer: James Athappilly <jamesa@algorithmia.com>
 Description: The company, Algorithmia, houses the largest marketplace of online
@@ -24,6 +24,6 @@ RoxygenNote: 5.0.1.9000
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2016-08-29 06:29:37 UTC; enthalpy
+Packaged: 2016-09-13 15:00:28 UTC; enthalpy
 Repository: CRAN
-Date/Publication: 2016-08-29 08:56:43
+Date/Publication: 2016-09-13 21:19:09
