@@ -143,7 +143,7 @@ AlgorithmHandler <- methods::setRefClass(
 #' algorithm <- function(input, prefix) { paste(prefix, input) }
 #'
 #' #To create an algorithm that returns "Hello" + input:
-#' algo <- getAlgorithmHandler(algorithm, loadPrefix) 
+#' algo <- getAlgorithmHandler(algorithm, loadPrefix)
 getAlgorithmHandler <-function(applyfunc, onLoadMethod = function() {NULL}, pipe = 'stdin') {
     AlgorithmHandler$new(
       applyMethod = applyfunc,
